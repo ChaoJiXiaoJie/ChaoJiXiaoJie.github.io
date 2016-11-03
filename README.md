@@ -1,2 +1,2 @@
-# ChaoJiXiaoJie-github.io
+# ChaoJiXiaoJie.github.io
 my personal project
