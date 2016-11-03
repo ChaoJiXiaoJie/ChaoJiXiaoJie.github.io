@@ -8,8 +8,9 @@ header{
 	width: 100%;
 	height: 36px;
 	position: fixed;
-	background-color:rgba(255,255,255,0.75);
+	background-color:rgba(255,255,255,0.35);
 	margin-bottom: 25px;
+	border-bottom: 1px solid #DC143C;
 }
 #iconImg{
 	width: 60px;
@@ -39,6 +40,15 @@ nav>ul>li>a{
 	line-height: 36px;
 	font-weight: bolder;
 }
+#navSelected{
+	height: 31px;
+	background-color: #000000;
+	border-bottom: 5px  solid crimson;
+}
+#navSelected a{
+	color: #DC143C;
+	text-decoration: none;
+}
 nav>ul>li:hover{
 	height: 31px;
 	background-color: #000000;
@@ -55,29 +65,31 @@ nav>ul>li>a:hover{
 	float: right;
 }
 #ggSearchValue{
-	width: 180px;
+	width: 190px;
 	height: 20px;
 	float: left;
+	color: gold;
 	background-color: rgba(0,0,0,0);
 	margin: 5px 0 5px 5px;
-	border-top: 3px solid azure;
-	border-bottom: 3px solid azure;
-	border-left: 3px solid azure;
+	border-top: 3px solid crimson;
+	border-bottom: 3px solid crimson;
+	border-left: 3px solid crimson;
 	border-right: 0 solid #000000;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	padding-left: 6px;
 }
 #ggSearchSubmit{
-	width: 90px;
+	width: 80px;
 	height: 26px;
 	float: left;
+	color: antiquewhite;
 	margin: 5px 5px 5px 0;
-	background-color: azure;
-	border-top: 3px solid azure;
-	border-bottom: 3px solid azure;
-	border-left: 0 solid azure;
-	border-right: 3px solid azure;
+	background-color: crimson;
+	border-top: 3px solid crimson;
+	border-bottom: 3px solid crimson;
+	border-left: 0 solid crimson;
+	border-right: 3px solid crimson;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
