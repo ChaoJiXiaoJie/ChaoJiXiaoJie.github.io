@@ -1,0 +1,7 @@
+#main{
+    margin: 0 auto;
+    width: 1200px;
+    height: 900px;
+    border-top: 57px rgba(0,0,0,0.4) solid;
+    background-color:rgba(255,255,255,0.3);
+}
