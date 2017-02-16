@@ -31,23 +31,22 @@
 /*第二列*/
 .footer_center{
     padding-top: 6px;
-    line-height: 53px;
     float: left;
     width: 400px;
 }
 .findme>a{
     width: 400px;
     color: #bbbbbb;
+    line-height: 53px;
     font-size: 18px;
     float: left;
 }
 .github{
-    width: 100px;
+    width: 75px;
     height: 32px;
-    float: left;
 }
 .qq{
-    width: 100px;
+    width: 75px;
     height: 32px;
 }
 .showImageP{
@@ -63,4 +62,12 @@
     width: 540px;
     height: 740px;
     background-color: rgba(255,255,255,0.3);
+}
+.weChat{
+    width: 75px;
+    height: 32px;
+}
+.weibo{
+    width: 75px;
+    height: 32px;
 }
