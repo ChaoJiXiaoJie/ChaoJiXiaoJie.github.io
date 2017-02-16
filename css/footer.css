@@ -9,18 +9,58 @@
     width: 1200px;
     float: none;
 }
-#footer>ul>li{
-    float: none;
+/*第一列*/
+.footer_left{
+    float: left;
+    width: 500px;
+    padding-top: 6px;
 }
-#footer>ul :first-child>a{
+.show{
     width: 500px;
     font-size: 30px;
-    height: 53px;
+    line-height: 53px;
     color: #ffffff;
-    line-height: 45px;
+    float: none;
 }
-#footer>ul>li>a{
+.e_mail{
     font-size: 16px;
     color: #bbbbbb;
     line-height: 35px;
+    float: none;
+}
+/*第二列*/
+.footer_center{
+    padding-top: 6px;
+    line-height: 53px;
+    float: left;
+    width: 400px;
+}
+.findme>a{
+    width: 400px;
+    color: #bbbbbb;
+    font-size: 18px;
+    float: left;
+}
+.github{
+    width: 100px;
+    height: 32px;
+    float: left;
+}
+.qq{
+    width: 100px;
+    height: 32px;
+}
+.showImageP{
+    z-index: 998;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(196,18,54,0.4);
+}
+.showImage{
+    z-index:999;
+    position:absolute;
+    width: 540px;
+    height: 740px;
+    background-color: rgba(255,255,255,0.3);
 }
