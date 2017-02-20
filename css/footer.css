@@ -32,7 +32,7 @@
 .footer_center{
     padding-top: 6px;
     float: left;
-    width: 400px;
+    width: 350px;
 }
 .findme>a{
     width: 400px;
@@ -70,4 +70,16 @@
 .weibo{
     width: 75px;
     height: 32px;
+}
+/*第三列*/
+.footer_right{
+    width: 350px;
+}
+.footer_right :first-child{
+    margin-top: 20px;
+}
+.footer_right>li>a{
+    font-size: 16px;
+    color: #bbbbbb;
+    line-height: 26px;
 }
